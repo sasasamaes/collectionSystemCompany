@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+html,body{
+  height: 100%;
+  width: 100%;
+  background: #e0e0e0;
+  font-family: 'Raleway', sans-serif;
+}
+header{
+  height: 100%;
+  width: 100%;
+  z-index: -23;
+}
+nav{
+  position: fixed;
+  z-index: 999;
+}
+
+.brand-logo{
+  height: 100%;
+}
+.slider{
+  top: 65px;
+}
+.tab2 h2{
+  font-size: 2em;
+}
+.slider .slides li .caption{
+  top:46%;
+}
+.row {
+  margin-bottom: 0;
+}
+ul li{
+   list-style-type: circle;
+}

@@ -76,5 +76,10 @@ footer.page-footer{
   }
   nav .brand-logo{
     left: 58%;
+    font-size: 1.3em;
+  }
+  .ligth{
+    font-size: .8em;
+    color: red;
   }
 }

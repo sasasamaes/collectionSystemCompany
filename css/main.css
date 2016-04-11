@@ -64,6 +64,9 @@ nav{
 .parrafo{
   font-size: 1.5em;
 }
+footer.page-footer{
+  margin-top: 0;
+}
 @media (max-width: 600px) {
   *{
     text-align: center;

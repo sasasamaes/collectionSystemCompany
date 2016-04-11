@@ -18,6 +18,9 @@ nav{
 .brand-logo{
   height: 100%;
 }
+.bold{
+  font-weight: bold;
+}
 .slider{
   top: 65px;
 }
@@ -30,6 +33,42 @@ nav{
 .row {
   margin-bottom: 0;
 }
-ul li{
-   list-style-type: circle;
+.servicio{
+  width: 35%;
+}
+.valor{
+  width: 50%;
+  padding: 40px;
+}
+.valor2{
+  width: 65%;
+  padding: 40px;
+}
+.lista{
+  list-style-type: circle;
+  padding: 20px;
+  font-size: 1.5em;
+}
+.lista li:before{
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: black;
+}
+.row .col.s12{
+  margin-bottom: 3em;
+}
+.parrafo{
+  font-size: 1.5em;
+}
+@media (max-width: 600px) {
+  *{
+    text-align: center;
+  }
+  .slider .slides li .caption{
+    top: 20%;
+  }
 }

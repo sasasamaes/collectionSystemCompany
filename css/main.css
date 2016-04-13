@@ -64,6 +64,10 @@ nav{
 .parrafo{
   font-size: 1.5em;
 }
+.clientes img{
+  width: 15%;
+}
+
 footer.page-footer{
   margin-top: 0;
 }
